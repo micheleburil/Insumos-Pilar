@@ -1,20 +1,13 @@
-# Portal TBSA com dashboard próprio
+# Portal TBSA com importação por abas
 
-## Primeiro acesso
-- E-mail: `michele@empresa.com`
-- Senha: `123456`
+Primeiro acesso: `michele@empresa.com` / `123456`.
 
-## Como usar
-1. Entre no portal.
-2. Abra **Importar dados**.
-3. Escolha um arquivo Excel ou CSV.
-4. Relacione as colunas da planilha com Semana, Categoria, Item, Requisição, Quantidade, Valor e Data.
-5. Clique em **Importar e criar dashboard**.
+Para a planilha Controle Materias - TBSA, o portal sugere automaticamente:
+- Rateio → Tela inicial / Rateio
+- Materiais de Perfuração → Materiais de Perfuração
+- Insumos → Insumos
+- Bits → Bits
+- Diesel → Diesel
+- Legenda e Código Almoxarifado → Não exibir
 
-O portal cria cards, gráficos por semana e categoria, ranking de itens e tabela de registros.
-
-## Publicar
-Substitua os arquivos do repositório GitHub pelos arquivos desta pasta. Mantenha GitHub Pages em `main` e `/(root)`.
-
-## Limitação
-No GitHub Pages, dados e configurações ficam no navegador. Para compartilhar a mesma base entre vários usuários, será necessário conectar banco de dados e autenticação real.
+Você pode alterar os destinos durante a importação e em Configurações > Importação de dados.
